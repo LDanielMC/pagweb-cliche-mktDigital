@@ -22,3 +22,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*serviceAccount*.json
+firebase-debug.log*
+
+# Local tool state (Firebase cache, AI/design tooling hooks)
+.firebase/
+.codex/
+.impeccable/
+.claude/

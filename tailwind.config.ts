@@ -14,8 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ['"Cormorant Garamond"', 'serif'],
-        body: ['"DM Sans"', 'sans-serif'],
+        display: ['"THE SEASON"', '"Cinzel Decorative"', 'serif'],
+        heading: ['"Montime"', '"Tenor Sans"', 'serif'],
+        body: ['"Raleway"', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
